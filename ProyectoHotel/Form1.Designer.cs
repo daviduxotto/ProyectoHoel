@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.BotonHabitaciones = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BotonHabitaciones
@@ -40,11 +41,21 @@
             this.BotonHabitaciones.Text = "Administracion de Habitaciones";
             this.BotonHabitaciones.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(58, 51);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 73);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Reservaciones";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 331);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BotonHabitaciones);
             this.Name = "FormPrincipal";
             this.Text = "Hotel Santa Barbara";
@@ -55,6 +66,7 @@
         #endregion
 
         private System.Windows.Forms.Button BotonHabitaciones;
+        private System.Windows.Forms.Button button1;
     }
 }
 

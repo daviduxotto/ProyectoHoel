@@ -7,3 +7,12 @@ C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHo
 C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.exe
 C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.pdb
 C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.FormPrincipal.resources
+C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.exe.config
+C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.exe
+C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.pdb
+C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.exe
+C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.pdb
+C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.csprojResolveAssemblyReference.cache
+C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.FormPrincipal.resources
+C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.Properties.Resources.resources
+C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.csproj.GenerateResource.Cache
