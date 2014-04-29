@@ -1,0 +1,9 @@
+C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\bin\Debug\ProyectoHotel.exe.config
+C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\bin\Debug\ProyectoHotel.exe
+C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\bin\Debug\ProyectoHotel.pdb
+C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.Properties.Resources.resources
+C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.csproj.GenerateResource.Cache
+C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.exe
+C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.pdb
+C:\Users\David\Documents\GitHub\ProyectoHotel\ProyectoHotel\obj\Debug\ProyectoHotel.FormPrincipal.resources
