@@ -29,6 +29,11 @@ namespace ProyectoHotel
            
         }
 
+        private void BotonSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
        
 
         }
