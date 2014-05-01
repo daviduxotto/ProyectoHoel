@@ -267,15 +267,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox ComboNumero;
-        private System.Windows.Forms.ComboBox ComboTipo;
-        private System.Windows.Forms.ComboBox ComboNumeroCamas;
-        private System.Windows.Forms.ComboBox ComboTipoCama;
-        private System.Windows.Forms.ComboBox ComboCapacidad;
-        private System.Windows.Forms.TextBox TxtTarifa;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        
+
         private System.Windows.Forms.ComboBox ComboCapacidad1;
         private System.Windows.Forms.ComboBox ComboTipoCama1;
         private System.Windows.Forms.ComboBox ComboNumeroCama;
