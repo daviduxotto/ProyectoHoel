@@ -26,6 +26,7 @@ namespace ProyectoHotel
         {
             habitaciones habitacion = new habitaciones();
             habitacion.Show();
+           
         }
 
        

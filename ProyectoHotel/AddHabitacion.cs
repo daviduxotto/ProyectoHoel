@@ -44,6 +44,9 @@ namespace ProyectoHotel
                 comando.ExecuteReader();
                 conexion.Clone();
                 MessageBox.Show("se ha creado la habitacion con exito");
+                habitaciones habitacion = new habitaciones();
+                habitacion.Show();
+                this.Close();
 
             }
             catch (Exception ex)

@@ -60,6 +60,7 @@ namespace ProyectoHotel
         {
             AddHabitacion newhabiacion = new AddHabitacion();
             newhabiacion.Show();
+            this.Close();
         }
 
        
