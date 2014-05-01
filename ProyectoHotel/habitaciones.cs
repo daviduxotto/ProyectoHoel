@@ -56,6 +56,12 @@ namespace ProyectoHotel
             }
         }
 
+        private void BotonAñadir_Click(object sender, EventArgs e)
+        {
+            AddHabitacion newhabiacion = new AddHabitacion();
+            newhabiacion.Show();
+        }
+
        
            
     }
