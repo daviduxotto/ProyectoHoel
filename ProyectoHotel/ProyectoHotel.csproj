@@ -50,11 +50,6 @@
     </Compile>
     <Compile Include="AddHabitacion.Designer.cs">
       <DependentUpon>AddHabitacion.cs</DependentUpon>
-    <Compile Include="clientes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="clientes.Designer.cs">
-      <DependentUpon>clientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -72,8 +67,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddHabitacion.resx">
       <DependentUpon>AddHabitacion.cs</DependentUpon>
-    <EmbeddedResource Include="clientes.resx">
-      <DependentUpon>clientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

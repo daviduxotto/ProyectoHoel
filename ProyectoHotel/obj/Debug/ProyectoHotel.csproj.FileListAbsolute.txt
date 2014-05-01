@@ -26,9 +26,7 @@ C:\Users\David\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHot
 C:\Users\David\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.exe
 C:\Users\David\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.pdb
 C:\Users\David\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.csprojResolveAssemblyReference.cache
-<<<<<<< HEAD
 C:\Users\David\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.AddHabitacion.resources
-=======
-C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.clientes.resources
-C:\Users\Worldtech-Server\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.habitaciones.resources
->>>>>>> 1d3d328271d1ec4802c88a896f4a23e747788a0c
+C:\Users\David\Desktop\ProyectoHoel-3ec5cb45fc909b090e9f1ffdc96d40b0af565630\ProyectoHotel\bin\Debug\ProyectoHotel.exe.config
+C:\Users\David\Desktop\ProyectoHoel-3ec5cb45fc909b090e9f1ffdc96d40b0af565630\ProyectoHotel\obj\Debug\ProyectoHotel.exe
+C:\Users\David\Desktop\ProyectoHoel-3ec5cb45fc909b090e9f1ffdc96d40b0af565630\ProyectoHotel\obj\Debug\ProyectoHotel.pdb
