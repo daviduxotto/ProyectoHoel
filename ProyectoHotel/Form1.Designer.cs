@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             this.BotonHabitacion = new System.Windows.Forms.Button();
             this.BotonSalir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BotonHabitacion
@@ -53,10 +54,21 @@
             this.BotonSalir.UseVisualStyleBackColor = true;
             this.BotonSalir.Click += new System.EventHandler(this.BotonSalir_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(195, 81);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 57);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Administracion Comida";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormPrincipal
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(355, 360);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BotonSalir);
             this.Controls.Add(this.BotonHabitacion);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -71,6 +83,7 @@
         
         private System.Windows.Forms.Button BotonHabitacion;
         private System.Windows.Forms.Button BotonSalir;
+        private System.Windows.Forms.Button button1;
     }
 }
 

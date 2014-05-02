@@ -52,6 +52,24 @@
     <Compile Include="AddHabitacion.Designer.cs">
       <DependentUpon>AddHabitacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Comida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comida.Designer.cs">
+      <DependentUpon>Comida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComidasPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComidasPrincipal.Designer.cs">
+      <DependentUpon>ComidasPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditComida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditComida.Designer.cs">
+      <DependentUpon>EditComida.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditHabitacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +92,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddHabitacion.resx">
       <DependentUpon>AddHabitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comida.resx">
+      <DependentUpon>Comida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComidasPrincipal.resx">
+      <DependentUpon>ComidasPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditComida.resx">
+      <DependentUpon>EditComida.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditHabitacion.resx">
       <DependentUpon>EditHabitacion.cs</DependentUpon>

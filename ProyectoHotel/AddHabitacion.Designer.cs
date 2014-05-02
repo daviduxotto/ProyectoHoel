@@ -261,6 +261,7 @@
             this.Name = "AddHabitacion";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.AddHabitacion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

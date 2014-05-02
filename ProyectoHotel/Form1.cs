@@ -34,6 +34,12 @@ namespace ProyectoHotel
             this.Close();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ComidasPrincipal comida = new ComidasPrincipal();
+            comida.Show();
+        }
+
        
 
         }
