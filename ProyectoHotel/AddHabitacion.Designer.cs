@@ -128,7 +128,6 @@
             this.ComboNumero1.Name = "ComboNumero1";
             this.ComboNumero1.Size = new System.Drawing.Size(121, 21);
             this.ComboNumero1.TabIndex = 4;
-            this.ComboNumero1.SelectedIndexChanged += new System.EventHandler(this.ComboNumero1_SelectedIndexChanged);
             // 
             // TxtTarifa1
             // 

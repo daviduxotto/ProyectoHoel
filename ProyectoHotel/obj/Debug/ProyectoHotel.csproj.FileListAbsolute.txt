@@ -33,23 +33,6 @@ C:\Users\David\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHot
 C:\Users\David\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.exe
 C:\Users\David\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.pdb
 C:\Users\David\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.csprojResolveAssemblyReference.cache
-<<<<<<< HEAD
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.exe.config
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.exe
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.pdb
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.exe
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.pdb
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.csprojResolveAssemblyReference.cache
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.AddClientes.resources
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.AddHabitacion.resources
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.Clientes.resources
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.EditHabitacion.resources
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.FormPrincipal.resources
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.habitaciones.resources
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.Properties.Resources.resources
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.csproj.GenerateResource.Cache
-C:\Users\chuy\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.EditClientes.resources
-=======
 C:\Users\Home\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.exe.config
 C:\Users\Home\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.exe
 C:\Users\Home\Documents\GitHub\ProyectoHoel\ProyectoHotel\bin\Debug\ProyectoHotel.pdb
@@ -64,4 +47,3 @@ C:\Users\Home\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHote
 C:\Users\Home\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.csproj.GenerateResource.Cache
 C:\Users\Home\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.exe
 C:\Users\Home\Documents\GitHub\ProyectoHoel\ProyectoHotel\obj\Debug\ProyectoHotel.pdb
->>>>>>> 5e17d08490ebcea91747a9647f25e9d6266ac101

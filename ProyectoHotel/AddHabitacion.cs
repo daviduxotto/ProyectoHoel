@@ -61,14 +61,6 @@ namespace ProyectoHotel
 
         }
 
-<<<<<<< HEAD
-        private void ComboNumero1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-=======
->>>>>>> 5e17d08490ebcea91747a9647f25e9d6266ac101
       
     }
 }
