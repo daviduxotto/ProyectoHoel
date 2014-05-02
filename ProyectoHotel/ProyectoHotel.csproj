@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddClientes.Designer.cs">
+      <DependentUpon>AddClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddHabitacion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddHabitacion.Designer.cs">
       <DependentUpon>AddHabitacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditClientes.Designer.cs">
+      <DependentUpon>EditClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="EditHabitacion.cs">
       <SubType>Form</SubType>
@@ -72,8 +90,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddClientes.resx">
+      <DependentUpon>AddClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddHabitacion.resx">
       <DependentUpon>AddHabitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditClientes.resx">
+      <DependentUpon>EditClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditHabitacion.resx">
       <DependentUpon>EditHabitacion.cs</DependentUpon>

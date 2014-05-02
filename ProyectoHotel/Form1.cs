@@ -34,6 +34,12 @@ namespace ProyectoHotel
             this.Close();
         }
 
+        private void BotonClientes_Click(object sender, EventArgs e)
+        {
+            Clientes cliente = new Clientes();
+            cliente.Show();
+        }
+
        
 
         }
