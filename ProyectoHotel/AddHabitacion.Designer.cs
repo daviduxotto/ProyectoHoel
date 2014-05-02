@@ -128,6 +128,7 @@
             this.ComboNumero1.Name = "ComboNumero1";
             this.ComboNumero1.Size = new System.Drawing.Size(121, 21);
             this.ComboNumero1.TabIndex = 4;
+            this.ComboNumero1.SelectedIndexChanged += new System.EventHandler(this.ComboNumero1_SelectedIndexChanged);
             // 
             // TxtTarifa1
             // 
@@ -261,6 +262,7 @@
             this.Name = "AddHabitacion";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.AddHabitacion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

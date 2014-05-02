@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             this.BotonHabitacion = new System.Windows.Forms.Button();
             this.BotonSalir = new System.Windows.Forms.Button();
+            this.BotonClientes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BotonHabitacion
@@ -45,7 +46,7 @@
             // 
             // BotonSalir
             // 
-            this.BotonSalir.Location = new System.Drawing.Point(73, 144);
+            this.BotonSalir.Location = new System.Drawing.Point(73, 206);
             this.BotonSalir.Name = "BotonSalir";
             this.BotonSalir.Size = new System.Drawing.Size(90, 57);
             this.BotonSalir.TabIndex = 1;
@@ -53,10 +54,21 @@
             this.BotonSalir.UseVisualStyleBackColor = true;
             this.BotonSalir.Click += new System.EventHandler(this.BotonSalir_Click);
             // 
+            // BotonClientes
+            // 
+            this.BotonClientes.Location = new System.Drawing.Point(73, 143);
+            this.BotonClientes.Name = "BotonClientes";
+            this.BotonClientes.Size = new System.Drawing.Size(90, 57);
+            this.BotonClientes.TabIndex = 2;
+            this.BotonClientes.Text = "Administracion de Clientes";
+            this.BotonClientes.UseVisualStyleBackColor = true;
+            this.BotonClientes.Click += new System.EventHandler(this.BotonClientes_Click);
+            // 
             // FormPrincipal
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(355, 360);
+            this.Controls.Add(this.BotonClientes);
             this.Controls.Add(this.BotonSalir);
             this.Controls.Add(this.BotonHabitacion);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -71,6 +83,7 @@
         
         private System.Windows.Forms.Button BotonHabitacion;
         private System.Windows.Forms.Button BotonSalir;
+        private System.Windows.Forms.Button BotonClientes;
     }
 }
 
