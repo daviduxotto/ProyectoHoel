@@ -11,11 +11,21 @@ using System.Windows.Forms;
 
 namespace ProyectoHotel
 {
-    public partial class AddHabitacion : Form
+    public partial class Comida : Form
     {
-        public AddHabitacion()
+        public Comida()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Comida_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void BotonCancelar_Click(object sender, EventArgs e)
@@ -28,24 +38,24 @@ namespace ProyectoHotel
             try
             {
                 //varialbes para iinsertar en la base de datos
-                int numero = Convert.ToInt32(ComboNumero1.Text);
-                string tipo = ComboTipo1.Text;
-                int numerocamas = Convert.ToInt32(ComboNumeroCama.Text);
-                string tipocama = ComboTipoCama1.Text;
-                int capcadidad = Convert.ToInt32(ComboCapacidad1.Text);
-                decimal tarifa = Convert.ToDecimal(TxtTarifa1.Text);
+                //try
+                //{
+                //varialbes para iinsertar en la base de datos
+                int numero = Convert.ToInt32(ComboCodigo.Text);
+                string nombre = ComboTipo.Text;
+                decimal precio = Convert.ToDecimal(TxtTarifa.Text);
                 // conexion con la base de datos
-                MySqlConnection conexion = new MySqlConnection(); //objeto
+                MySql.Data.MySqlClient.MySqlConnection conexion = new MySqlConnection(); //objeto
                 string cadenaConexion = "server=192.168.1.50;  uid=daviduxotto; pwd=daviduxotto; Port=3306; database=BDHotel";
                 conexion.ConnectionString = cadenaConexion;
                 conexion.Open();     // abrimos conezion          
-                String consulta = "Insert into Habitacion values ("+numero+",'"+tipo+"',"+numerocamas+",'"+tipocama+"',"+capcadidad+","+tarifa+")";  // realizamos consulta
+                String consulta = "Insert Into Comida  Values ( "+numero + ", '" + nombre + "', " + precio + " )" ;  // realizamos consulta
                 MySqlCommand comando = new MySqlCommand(consulta, conexion);
                 comando.ExecuteReader();
                 conexion.Clone();
-                MessageBox.Show("se ha creado la habitacion con exito");
-                habitaciones habitacion = new habitaciones();
-                habitacion.Show();
+                MessageBox.Show("se ha a agregado con exito");
+                ComidasPrincipal comida = new ComidasPrincipal();
+                comida.Show();
                 this.Close();
 
             }
@@ -55,20 +65,5 @@ namespace ProyectoHotel
             }
 
         }
-
-        private void AddHabitacion_Load(object sender, EventArgs e)
-        {
-
-        }
-
-<<<<<<< HEAD
-        private void ComboNumero1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-=======
->>>>>>> 5e17d08490ebcea91747a9647f25e9d6266ac101
-      
     }
 }

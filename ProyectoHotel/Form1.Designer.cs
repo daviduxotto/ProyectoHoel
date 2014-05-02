@@ -31,7 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             this.BotonHabitacion = new System.Windows.Forms.Button();
             this.BotonSalir = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.BotonClientes = new System.Windows.Forms.Button();
+=======
+            this.button1 = new System.Windows.Forms.Button();
+>>>>>>> 5e17d08490ebcea91747a9647f25e9d6266ac101
             this.SuspendLayout();
             // 
             // BotonHabitacion
@@ -54,6 +58,7 @@
             this.BotonSalir.UseVisualStyleBackColor = true;
             this.BotonSalir.Click += new System.EventHandler(this.BotonSalir_Click);
             // 
+<<<<<<< HEAD
             // BotonClientes
             // 
             this.BotonClientes.Location = new System.Drawing.Point(73, 143);
@@ -63,12 +68,27 @@
             this.BotonClientes.Text = "Administracion de Clientes";
             this.BotonClientes.UseVisualStyleBackColor = true;
             this.BotonClientes.Click += new System.EventHandler(this.BotonClientes_Click);
+=======
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(195, 81);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 57);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Administracion Comida";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+>>>>>>> 5e17d08490ebcea91747a9647f25e9d6266ac101
             // 
             // FormPrincipal
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(355, 360);
+<<<<<<< HEAD
             this.Controls.Add(this.BotonClientes);
+=======
+            this.Controls.Add(this.button1);
+>>>>>>> 5e17d08490ebcea91747a9647f25e9d6266ac101
             this.Controls.Add(this.BotonSalir);
             this.Controls.Add(this.BotonHabitacion);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -83,7 +103,11 @@
         
         private System.Windows.Forms.Button BotonHabitacion;
         private System.Windows.Forms.Button BotonSalir;
+<<<<<<< HEAD
         private System.Windows.Forms.Button BotonClientes;
+=======
+        private System.Windows.Forms.Button button1;
+>>>>>>> 5e17d08490ebcea91747a9647f25e9d6266ac101
     }
 }
 

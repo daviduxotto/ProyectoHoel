@@ -34,10 +34,17 @@ namespace ProyectoHotel
             this.Close();
         }
 
+<<<<<<< HEAD
         private void BotonClientes_Click(object sender, EventArgs e)
         {
             Clientes cliente = new Clientes();
             cliente.Show();
+=======
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ComidasPrincipal comida = new ComidasPrincipal();
+            comida.Show();
+>>>>>>> 5e17d08490ebcea91747a9647f25e9d6266ac101
         }
 
        
