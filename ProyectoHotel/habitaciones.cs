@@ -45,6 +45,8 @@ namespace ProyectoHotel
                     dataGrid.Rows[fila].Cells["TipoCama"].Value = LectorDB[3].ToString();
                     dataGrid.Rows[fila].Cells["Capacidad"].Value = LectorDB[4].ToString();
                     dataGrid.Rows[fila].Cells["Tarifa"].Value = LectorDB[5].ToString();
+                    dataGrid.Rows[fila].Cells["Eliminar"].Value = "Eliminar";
+                    dataGrid.Rows[fila].Cells["Editar"].Value = "Editar";
                     fila++;
                 }
 
@@ -61,6 +63,68 @@ namespace ProyectoHotel
             AddHabitacion newhabiacion = new AddHabitacion();
             newhabiacion.Show();
             this.Close();
+        }
+
+        private void BotonEliminar_Click(object sender, EventArgs e)
+        {
+            
+         
+        }
+
+        private void dataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                int i = dataGrid.CurrentCell.RowIndex; // numero de fila
+                String idHabitacion = dataGrid.Rows[i].Cells[0].Value.ToString();
+                int a = dataGrid.CurrentCell.ColumnIndex;
+                if (a == 6) // si dio clicl en el boton elimar
+                {
+                    if (MessageBox.Show("Si elimina la habitacion No. " + idHabitacion + " puede causar conflictos en la Base de Datos", "¿Desea eliminar?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                    {
+                        try
+                        {
+                            MySqlConnection conexion = new MySqlConnection(); //objeto
+                            string cadenaConexion = "server=192.168.1.50;  uid=daviduxotto; pwd=daviduxotto; Port=3306; database=BDHotel";
+                            conexion.ConnectionString = cadenaConexion;
+                            conexion.Open();     // abrimos conezion          
+                            String consulta = "delete from Habitacion where Id='" + idHabitacion + "'";  // realizamos consulta
+                            MySqlCommand comando = new MySqlCommand(consulta, conexion);
+                            comando.ExecuteNonQuery();
+
+                            conexion.Close();
+                            llenadDataGrid();
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("se ha producido un error al intentar abrir la Base de Datos: " + ex);
+                        }
+                    }
+                }// fin del boton eliminara
+
+                if (a == 7) // si dio clicl en el boton editar
+                {
+                    MySqlConnection conexion = new MySqlConnection(); //objeto
+                    string cadenaConexion = "server=192.168.1.50;  uid=daviduxotto; pwd=daviduxotto; Port=3306; database=BDHotel";
+                    conexion.ConnectionString = cadenaConexion;
+                    conexion.Open();     // abrimos conezion          
+                    String consulta = "Select * from Habitacion where id='"+idHabitacion+"'"; // realizamos consulta
+                    MySqlCommand comando = new MySqlCommand(consulta, conexion);
+                    MySqlDataReader LectorDB = comando.ExecuteReader();
+                    dataGrid.Rows.Clear(); //limpiamos el datagried
+                    while (LectorDB.Read())
+                    {
+                        EditHabitacion editar = new EditHabitacion(LectorDB[0].ToString(), LectorDB[1].ToString(), LectorDB[2].ToString(), LectorDB[3].ToString(), LectorDB[4].ToString(), LectorDB[5].ToString());
+                        editar.Show();
+                    }
+
+                    conexion.Close();
+                    this.Close();
+                }
+            } // fin del try catch 
+            catch (Exception f)
+            {
+            }
         }
 
        

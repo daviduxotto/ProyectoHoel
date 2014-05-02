@@ -41,8 +41,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.BotonAgregar = new System.Windows.Forms.Button();
             this.BotonCancelar = new System.Windows.Forms.Button();
+            this.BotonAgregar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ComboCapacidad1
@@ -203,22 +203,6 @@
             this.label8.TabIndex = 11;
             this.label8.Text = "Tarifa";
             // 
-            // BotonAgregar
-            // 
-            this.BotonAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.BotonAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonAgregar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.BotonAgregar.Image = global::ProyectoHotel.Properties.Resources.add;
-            this.BotonAgregar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BotonAgregar.Location = new System.Drawing.Point(12, 189);
-            this.BotonAgregar.Name = "BotonAgregar";
-            this.BotonAgregar.Size = new System.Drawing.Size(105, 60);
-            this.BotonAgregar.TabIndex = 12;
-            this.BotonAgregar.Text = "Agregar";
-            this.BotonAgregar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BotonAgregar.UseVisualStyleBackColor = false;
-            this.BotonAgregar.Click += new System.EventHandler(this.BotonAgregar_Click);
-            // 
             // BotonCancelar
             // 
             this.BotonCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -235,6 +219,22 @@
             this.BotonCancelar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BotonCancelar.UseVisualStyleBackColor = false;
             this.BotonCancelar.Click += new System.EventHandler(this.BotonCancelar_Click);
+            // 
+            // BotonAgregar
+            // 
+            this.BotonAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BotonAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BotonAgregar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BotonAgregar.Image = global::ProyectoHotel.Properties.Resources.add;
+            this.BotonAgregar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BotonAgregar.Location = new System.Drawing.Point(12, 189);
+            this.BotonAgregar.Name = "BotonAgregar";
+            this.BotonAgregar.Size = new System.Drawing.Size(105, 60);
+            this.BotonAgregar.TabIndex = 12;
+            this.BotonAgregar.Text = "Agregar";
+            this.BotonAgregar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BotonAgregar.UseVisualStyleBackColor = false;
+            this.BotonAgregar.Click += new System.EventHandler(this.BotonAgregar_Click);
             // 
             // AddHabitacion
             // 
@@ -260,6 +260,7 @@
             this.MinimizeBox = false;
             this.Name = "AddHabitacion";
             this.Opacity = 0.9D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 
